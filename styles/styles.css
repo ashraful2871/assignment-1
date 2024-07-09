@@ -1,0 +1,60 @@
+.azeret-mono {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+/* navigation-section */
+
+.nav-container {
+    display: flex;
+    margin: 50px 150px;
+    justify-content: space-between;
+}
+
+.btn-container {
+    width: 228px;
+    height: 58px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+/* developer-section */
+
+.hero-section-container {
+    width: 1900px;
+    height: 565px;
+    background-image: url('../assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 26px;
+    
+}
+
+.hero-container button {
+    width: 208px;
+    height: 66px;
+    color: white;
+    background-color: #0D1321;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
+}
+.hero-container img{
+    margin-bottom: 20px;
+}
+.hero-container h1{
+    margin-bottom: 10px;
+}
