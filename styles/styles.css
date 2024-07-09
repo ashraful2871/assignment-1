@@ -93,15 +93,30 @@
 
 .developer-container2{
     background-color: white;
-    display: flex;
-    padding: 50px
+    padding: 50px;
+    margin-bottom: 30px;    
 }
-.dev-sub-container{
+.dev-sub-container2{
     display: flex;
     gap: 700px;
     border: 2px solid red;
 }
-.dev-sub-container p{
+.dev-sub-container2 p{
+    margin-bottom: 60px;
+}
+
+.developer-container3{
+    background-color: white;
+    padding: 50px;
+    margin-bottom: 30px; 
+}
+
+.dev-sub-container3{
+    display: flex;
+    gap: 100px;
+    border: 2px solid red;
+}
+.dev-sub-container3 p{
     margin-bottom: 60px;
 }
 
