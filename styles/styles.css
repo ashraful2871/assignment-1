@@ -69,7 +69,9 @@
     margin-bottom: 10px;
 }
 
+
 /* developer-section-style */
+
 .developer-section-container {
     width: 1650px;
     height: 1280px;
@@ -140,7 +142,7 @@
 
 .inspiration-section-container {
     width: 1650px;
-    height: 970px;
+    height: 990px;
     margin: 88px auto;
 }
 
@@ -157,6 +159,110 @@
     border-radius: 16px;
 }
 
+.inspiration-section-container h1 {
+    font-size: 32px;
+}
+
 .inspiration-video-container {
     padding: 48px;
 }
+
+/* my current target section style */
+
+.my-current-target-section {
+    width: 1650px;
+    height: 460px;
+    margin: 0 auto;
+}
+
+.target-container {
+    text-align: center;
+}
+
+.target-container h1 {
+    font-size: 32px;
+}
+
+.target-container p {
+    margin-bottom: 48px;
+}
+
+.target-items{
+    display: flex;
+    justify-content: space-around;
+}
+.learn-more{
+    font-family: "Azeret Mono", monospace;
+    text-decoration-line: underline;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+.learn-more-html{
+    background-color: rgba(255, 76, 30, 0.05);   
+}
+
+.learn-more-css{
+    background-color: #F2F6FE;
+}
+
+.learn-more-js{
+    background-color: #FFFDF2;
+}
+
+.html {
+    width: 364px;
+    height: 283px;
+    background-color: rgba(255, 76, 30, 0.05);
+     /* background: rgba(255, 76, 30, 0.05); */
+    
+}
+.html div{
+    padding: 30px;
+}
+
+.css{
+    width: 364px;
+    height: 283px;
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.css div{
+    padding: 30px;
+}
+
+.java{
+    width: 364px;
+    height: 283px;
+    background-color: rgba(255, 223, 0, 0.05);
+}
+.java div{
+    padding: 30px;
+}
+
+/* future-learning-style */
+
+.future-learning{
+    width: 1650px;
+    height: 886px;
+    border: 2px solid red;
+    margin: 110px auto;
+}
+.future-learning-container{
+    text-align: center;
+}
+.future-learning-container h1{
+    font-size: 32px;
+}
+.future-learning-items{
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 16px;
+    margin-top: 48px;
+}
+.react-nodejs-mongodb{
+    display: flex;
+    gap: 70px;
+}
+
