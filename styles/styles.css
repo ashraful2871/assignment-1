@@ -78,7 +78,7 @@
     padding: 80px;
 }
 
-.developer-container{
+.developer-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -86,46 +86,77 @@
     background-color: white;
     margin-bottom: 30px;
 }
-.developer-container h1{
+
+.developer-container h1 {
     font-size: 32px;
 }
 
-.developer-container2{
+.developer-container2 {
     background-color: white;
     padding: 50px;
-    margin-bottom: 30px;    
+    margin-bottom: 30px;
 }
-.dev-sub-container2{
+
+.dev-sub-container2 {
     display: flex;
     gap: 700px;
 }
-.dev-sub-container2 p{
+
+.dev-sub-container2 p {
     margin-bottom: 60px;
 }
 
-.developer-container3{
+.developer-container3 {
     background-color: white;
     padding: 50px;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
 
-.dev-sub-container3{
+.dev-sub-container3 {
     display: flex;
     gap: 100px;
 }
-.dev-sub-container3 p{
+
+.dev-sub-container3 p {
     margin-bottom: 60px;
 }
 
-.developer-container4{
+.developer-container4 {
     background-color: white;
     padding: 50px;
-    
+
 }
-.dev-sub-container4{
+
+.dev-sub-container4 {
     display: flex;
     gap: 700px;
 }
-.dev-sub-container4 p{
+
+.dev-sub-container4 p {
     margin-bottom: 60px;
+}
+
+/* inspiration-section-style */
+
+.inspiration-section-container {
+    width: 1650px;
+    height: 970px;
+    margin: 88px auto;
+}
+
+.inspiration-section-container div {
+
+    text-align: center;
+}
+
+.inspiration-container {
+    width: 1650px;
+    height: 800px;
+    margin-top: 60px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+.inspiration-video-container {
+    padding: 48px;
 }
